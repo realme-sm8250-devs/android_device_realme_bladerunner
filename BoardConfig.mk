@@ -16,3 +16,6 @@
 
 DEVICE_PATH := device/realme/bladerunner
 BOARD_VENDOR := realme
+
+# Include the common OEM chipset BoardConfig.
+include device/realme/sm8250-common/BoardConfigCommon.mk
