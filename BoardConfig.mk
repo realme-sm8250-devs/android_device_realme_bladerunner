@@ -19,3 +19,6 @@ BOARD_VENDOR := realme
 
 # Include the common OEM chipset BoardConfig.
 include device/realme/sm8250-common/BoardConfigCommon.mk
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := bladerunner,RMX2076L1,RMX2076
