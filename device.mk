@@ -16,3 +16,6 @@
 
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/realme/sm8250-common/common.mk)
+
+# Call device proprietary blobs
+$(call inherit-product, vendor/realme/bladerunner/bladerunner-vendor.mk)
