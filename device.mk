@@ -19,3 +19,6 @@ $(call inherit-product, device/realme/sm8250-common/common.mk)
 
 # Call device proprietary blobs
 $(call inherit-product, vendor/realme/bladerunner/bladerunner-vendor.mk)
+
+# Declare the product shipping API
+PRODUCT_SHIPPING_API_LEVEL := 29
