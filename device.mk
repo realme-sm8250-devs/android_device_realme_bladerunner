@@ -22,3 +22,7 @@ $(call inherit-product, vendor/realme/bladerunner/bladerunner-vendor.mk)
 
 # Declare the product shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    device/realme/bladerunner
